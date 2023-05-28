@@ -1,13 +1,145 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  /* background-color: rgb(248, 235, 235); */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#root {
+  width: 100%;
+  height: 100vh;
+}
+
+.app-bar {
+  background: rgb(122, 184, 255);
+}
+
+.custom-login-form {
+  max-width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 60px;
+  padding: 20px;
+  /* border: 1px solid #ccc; */
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  /* background-color: #f8f8f8; */
+}
+
+.form-group {
+  padding-bottom: 10px;
+}
+
+.custom-login-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+.custom-login-form .form-group label {
+  color: #555;
+  font-weight: 600;
+  /* padding: 10px 0px; */
+}
+.custom-login-form .form-control {
+  border-color: #ddd;
+  border-radius: 0%;
+}
+.custom-login-form .form-control:focus {
+  box-shadow: none;
+  border-color: #aaa;
+}
+.custom-login-form .btn-primary {
+  background-color: #0a418e;
+  border-color: #0a418e;
+  border-radius: 2px;
+  width: 100%;
+  margin-top: 10px;
+}
+.custom-login-form .btn-primary:hover {
+  background-color: #0a418e;
+  border-color: #0a418e;
+}
+
+/* product card */
+
+.add-product-btn {
+  background-color: #0a418e;
+  border: none;
+  outline: none;
+}
+
+.custom-product-form {
+  /* max-width: 600px; */
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 60px;
+  padding: 20px;
+  /* border: 1px solid #ccc; */
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  /* background-color: #f8f8f8; */
+}
+
+.form-group {
+  padding-bottom: 10px;
+}
+
+.custom-product-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+.custom-product-form .form-group label {
+  color: #555;
+  font-weight: 600;
+  /* padding: 10px 0px; */
+}
+.custom-product-form .form-control {
+  border-color: #ddd;
+  border-radius: 0%;
+}
+.custom-product-form .form-control:focus {
+  box-shadow: none;
+  border-color: #aaa;
+}
+.custom-product-form .btn-primary {
+  background-color: #0a418e;
+  border-color: #0a418e;
+  border-radius: 2px;
+  width: 100%;
+  margin-top: 10px;
+}
+.custom-product-form .btn-primary:hover {
+  background-color: #0a418e;
+  border-color: #0a418e;
+}
+
+/* logout btn */
+
+.logout-btn {
+  background-color: #0a418e;
+  outline: none;
+  border: none;
+  color: white;
+  padding: 2px 6px;
+}
+
+.cart-btn {
+  background-color: #0a418e;
+  outline: none;
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 2px;
+}
+
+.btn-delete {
+  border-radius: 0%;
+  background-color: red;
+  outline: none;
+  border: none;
+  padding: 4px 6px;
+  width: 100%;
+  font-weight: 500;
+  color: white;
 }
